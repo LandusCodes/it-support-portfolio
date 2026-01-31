@@ -1,0 +1,27 @@
+## Ticket #001 - Slow Computer Performance
+
+**User:** End User
+**Department:** Operations
+**Priorty:** Medium
+**Category:** Performance
+
+### Issue
+User eported that their computer was running slow durin gnormal work tasks.
+
+### Findings
+- CPU usage : 20%
+- Memory usage : 25%
+- Disk usage : 8%
+
+### Action Taken 
+- Opened Task manger to review sytems resources usgae
+- Checked for background application consumunf resources
+
+### Resolution
+No abnormal systems resources usage detected. System performance operating within normal parameters.
+
+### Verification
+User confirmed system performance improved and issue was resolved .
+
+### Tools Used
+- Task Manager
