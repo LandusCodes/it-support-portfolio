@@ -1,0 +1,27 @@
+## Ticket #002 – Network Connectivity Issue
+
+**User:** End User 
+**Department:** Operations 
+**Priority:** Medium 
+**Category:** Network 
+
+### Issue
+User reported intermittent network connectivity issues.
+
+### Findings
+- Successful ping to 192.168.68.1
+- Successful ping to 192.168.68.x
+
+### Actions Taken
+- Tested network connectivity using ping
+- Verified local network configuration
+
+### Resolution
+Network connectivity verified as stable with no packet loss detected.
+
+### Verification
+User confirmed connection remained stable after troubleshooting.
+
+### Tools Used
+- Command Prompt
+- ping
