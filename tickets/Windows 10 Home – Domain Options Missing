@@ -1,0 +1,36 @@
+Ticket ID: 003
+Priority: Medium  
+Status: Resolved  
+Category: Operating System / Configuration  
+
+## Customer Issue
+Customer reports inability to join a Windows workstation to a domain. Domain and workgroup options are not visible in system settings.
+
+## Environment
+- OS: Windows 10 Home
+- Network Type: NAT
+- Device Type: Virtual Machine
+
+## Steps to Reproduce
+1. Open System Properties
+2. Navigate to Computer Name settings
+3. Attempt to locate Domain or Workgroup options
+4. Options are not present
+
+## Troubleshooting Performed
+- Verified network connectivity
+- Checked Windows edition
+- Attempted to access `sysdm.cpl`
+- Reviewed Microsoft documentation
+
+## Root Cause Analysis
+Windows 10 Home does not support domain join functionality.
+
+## Resolution
+Recommended upgrade to Windows 10 Pro to enable domain membership features.
+
+## Customer Communication
+Explained Windows edition limitations and provided guidance on upgrading.
+
+## Time to Resolution
+30 minutes
